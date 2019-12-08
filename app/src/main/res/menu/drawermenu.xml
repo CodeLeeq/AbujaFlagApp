@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/news" android:icon="@drawable/ic_event_note_black_24dp" android:title="News"/>
+        <item android:id="@+id/videos" android:icon="@drawable/ic_ondemand_video_black_24dp" android:title="Videos"/>
+        <item android:id="@+id/photos" android:icon="@drawable/ic_photo_black_24dp" android:title="Photos"/>
+        <item android:id="@+id/team" android:icon="@drawable/ic_people_outline_black_24dp" android:title="Team"/>
+        <item android:id="@+id/gameday" android:icon="@drawable/ic_videogame_asset_black_24dp" android:title="Game Day"/>
+        <item android:id="@+id/shop" android:icon="@drawable/ic_shop_black_24dp" android:title="Shop"/>
+        <item android:id="@+id/logout" android:icon="@drawable/ic_action_logout" android:title="Log Out"/>
+
+    </group>
+
+    <item android:title="Abuja Flag" >
+        <menu>
+            <item android:id="@+id/about"
+                  android:icon="@drawable/ic_action_logout"
+                android:title="About"
+                />
+        </menu>
+
+
+    </item>
+
+
+</menu>
