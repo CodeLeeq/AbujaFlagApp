@@ -14,13 +14,13 @@ class SplashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
-        //4second splash time
+        //3 second splash time
         Handler().postDelayed({
             //start main activity
             startActivity(Intent(this@SplashScreen, MainActivity::class.java))
             //finish this activity
             finish()
-        },4000)
+        }, 3000)
     }
 }
 
